@@ -28,6 +28,10 @@ class NotepadView(QMainWindow):
         self.ui.actionSave.setShortcut("Ctrl+S")      # Save file
         self.ui.actionSave_As.setShortcut("Ctrl+Shift+S")  # Save file with new file
         self.ui.actionExit.setShortcut("Ctrl+Q")      # Exit
+        self.ui.actionCopy.setShortcut("Ctrl+C")      # Copy
+        self.ui.actionCut.setShortcut("Ctrl+X")      # Cut
+        self.ui.actionPaste.setShortcut("Ctrl+V")      # Paste
+        self.ui.actionUndo.setShortcut("Ctrl+Z")      # Undo
 
     def connect_actions(self, controller):
         

@@ -10,6 +10,9 @@ if __name__ == '__main__':
     view = NotepadView()
     controller = NotepadController(view)
 
+    # Đặt tiêu đề cho ứng dụng
+    view.setWindowTitle("My Notepad - Ứng dụng ghi chú")
+
     # Hiển thị ứng dụng
     view.show()
     sys.exit(app.exec_())
