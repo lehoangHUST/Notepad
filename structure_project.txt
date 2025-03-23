@@ -1,0 +1,8 @@
+Cấu trúc thư mục code sẽ được tổ chức như sau:
++ assets: Thư mục chứa ảnh kết quả
++ src: Folder code chính của toàn bộ chương trình
++ tests: Folder code để test thuật toán của chương trình
++ .gitignore: Bỏ đi các file trước khi push lên git
++ README.md: File hướng dẫn cách chạy chương trình
++ requirements: Thư viện chạy chương trình
++ structure_project: Cấu trúc chương trình

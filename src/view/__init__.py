@@ -1,0 +1,1 @@
+from .notepad_ui import Ui_MainWindow
