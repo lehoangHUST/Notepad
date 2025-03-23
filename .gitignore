@@ -1,0 +1,4 @@
+# remove file .pyc
+*.pyc
+*.pyo
+*.pyd
